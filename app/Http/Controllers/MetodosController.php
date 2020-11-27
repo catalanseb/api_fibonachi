@@ -23,6 +23,6 @@ class MetodosController extends Controller
             $ultimo_num = $n_esimo;
         }
 
-        return response(['n-esimo' => $pen_ultimo_num], 200);
+        return response(['nesimo' => $pen_ultimo_num], 200);
     }
 }
